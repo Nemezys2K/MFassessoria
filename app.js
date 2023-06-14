@@ -12,7 +12,7 @@ var farmaciaRouter = require('./routes/farmacia');
 var consultaRouter = require('./routes/consulta');
 var sobreRouter = require('./routes/sobre');
 var contatoRouter = require('./routes/contato');
-var usersRouter = require('./routes/users')
+var usersRouter = require('./routes/users');
 
 // Vairavel do Express
 var app = express();
