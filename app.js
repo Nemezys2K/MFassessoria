@@ -12,6 +12,7 @@ var farmaciaRouter = require('./routes/farmacia');
 var consultaRouter = require('./routes/consulta');
 var sobreRouter = require('./routes/sobre');
 var contatoRouter = require('./routes/contato');
+var usersRouter = require('./routes/users')
 
 // Vairavel do Express
 var app = express();
@@ -34,6 +35,7 @@ app.use('/farmacia', farmaciaRouter);
 app.use('/consulta', consultaRouter);
 app.use('/contato', contatoRouter);
 app.use('/sobre', sobreRouter);
+app.use('/users', usersRouter);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
