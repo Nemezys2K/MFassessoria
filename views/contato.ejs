@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/css/contato.css' />
+    <link rel="icon" href="/images/Logo Maristela MF 2.png" type="image/png">
+
+  </head>
+  <header>
+    <%-include ('partials/header') %>
+    <%-include ('partials/navbar') %>
+  </header>
+  <main id="container">
+    
+      
+      <form class=" container">
+        <h1>Entre em Contato</h1>
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required><br>
+  
+      <label for="telefoneFixo">Telefone Fixo:</label>
+      <input type="tel" id="telefoneFixo" name="telefoneFixo" required><br>
+  
+      <label for="telefoneMovel">Telefone Móvel:</label>
+      <input type="tel" id="telefoneMovel" name="telefoneMovel" required><br>
+  
+      <label for="endereco">Endereço:</label>
+      <input type="text" id="endereco" name="endereco" required><br>
+  
+      <label for="descricao">Descrição:</label>
+      <textarea id="descricao" name="descricao" required></textarea><br>
+  
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Cancelar">
+    </form>
+   
+    <!-- Botap Whatssap -->
+    <a class="whatssap" target="_blank" href="https://wa.me/5511988494342" alt="contato-whatssap">
+      <img src="/images/whatsapp-logo-icone.png" alt="Whatssap">
+    </a>
+
+
+
+  </main>
+
+  <footer>
+    <%-include ('partials/footer') %>
+  </footer>
+
+ <script src="/javascripts/carrosel-img.js"></script>
+  </body>
+</html>

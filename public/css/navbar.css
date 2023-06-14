@@ -1,0 +1,48 @@
+/* estildos da navegação */
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15px;
+    width: 100vw;
+    height: 70px;
+    background: radial-gradient(circle at 18.7% 37.8%, #13a76e 0%, #343a40 90%);
+}
+ul li{
+    display: inline;
+    align-items: start;
+    justify-content: start;
+    color: white;
+    font-size: 14pt;
+    
+}
+ul li a{
+    color: white;
+    box-shadow: 5px;
+    text-decoration: none;
+    margin-left: 100px;
+    
+}
+ul li a:hover {
+    padding: 10px;
+    background-color: #80CBC4;
+    color: #00FF7F;
+    border-radius: 10px 10px 10px 10px; 
+}
+
+.logoMF{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    right: 250px;
+}
+.iconeUsers{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 150px;
+}
+
+
+
+/* estildos da navegação */

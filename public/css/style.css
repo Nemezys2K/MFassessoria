@@ -1,0 +1,328 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  margin: 0;
+  padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body {
+  margin: 0;
+  font-family: 16px 'Lato', sans-serif;
+  
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* carrosel de imagens */
+article{
+  display: flex;
+  background-color: rgb(224, 224, 224);
+}
+.carousel {
+  width: 70vw;
+  height: 700px;
+  overflow: hidden;
+  position: relative;
+  left: 300px;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 30px 10px 30px 10px;
+}
+.carousel img {
+  width: 100%;
+  height: 100%;
+}
+.carousel .prev,
+.carousel .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-70%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px 5px 5px 5px;
+}
+.carousel .prev {
+  left: 1px;
+}
+.carousel .next {
+  right: 1px;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* carrosel de imagens */
+
+
+
+
+/* Banner animado */
+.fade-in-animation {
+  width: 100vw;
+  height: 50vw;
+  animation: fade-in 3s ease-in-out alternate;
+  color: #fff;
+  text-align: justify;
+}
+.background-home{
+  width: 100vw;
+  height: 50vw;
+}
+
+.titulo{
+  font-size: 50pt;
+  font-weight: 50;
+  position: relative;
+  left: 80px;
+  bottom: 800px;
+  z-index: 50px;
+}
+.paragrafo{
+  font-size: 25pt;
+  position: relative;
+  left: 80px;
+  bottom: 800px;
+  z-index: 50;
+}
+.paragrafo-1{
+  font-size: 15pt;
+  position: relative;
+  left: 80px;
+  bottom: 800px;
+  z-index: 50;
+}
+/* Banner animado */
+
+
+/* Bloco de cards */
+
+.slider {
+  width: 100vw;
+  height: 450px;
+  overflow: hidden;
+  display: flex;
+  padding: 40px 0;
+}
+
+.slider .card {
+  border-radius: 25px;
+  background: radial-gradient(circle at 18.7% 37.8%, #13a76e 0%, #343a40 90%);
+  flex: 1;
+  margin: 0 10px;
+  flex-wrap: wrap;
+}
+
+.slider .card  {
+  width: 59%;
+  object-fit: cover;
+  margin-left: 20px;
+}
+
+.slider .card .content {
+  padding: 10px 20px;
+}
+
+.card .content .title {
+  font-size: 25px;
+  font-weight: 600;
+  color: #F8F9FA;
+}
+
+.card .content .sub-title {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #F8F9FA;
+}
+
+.card .content p {
+  text-align: justify;
+  margin: 10px 0;
+  color: #e9ecef;
+}
+
+.card .content.btn {
+  display: block;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.card .content .btn button {
+  background: #093f2d;
+  color: #cfcfcf;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.card .content .btn button:hover {
+  background: #53ee45;
+  color: black;
+}
+
+.owl-carousel .owl-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.btn{
+  margin-top: 100px;
+}
+/* Bloco de cards */
+
+
+/* Bloco de mensagem */
+.menssagem{
+  background-color: #cfcfcf;
+  width: 100vw;
+  height: 500px;
+}
+
+
+#texto-site{
+  font-size: 38pt;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 150px;
+  left: 10px;
+  text-align: center;
+  
+}
+/* Bloco de mensagem */
+
+
+
+/* Bloco de empresas parceiras */
+.carrosel{
+  width: 100vw;
+  height: 500px;
+  box-shadow: 2px 2px 2px 2px gray;
+  margin: 50px auto;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.carrosel ul{
+  display: flex;
+  list-style: none;
+  width: 1200px;
+  height: 550px;
+}
+
+.carrosel li{
+  position: relative;
+  animation: slides 15s infinite ease-out;
+}
+
+@keyframes slides{
+  0%{
+    left: 0px;
+  }
+  20%{
+    left: -200px;
+  }
+  40%{
+    left: -400px;
+  }
+  60%{
+    left: -600px;
+  }
+  80%{
+    left: -800px;
+  }
+  100%{
+    left: 0px;
+  }
+}
+
+/* Bloco de empresas parceiras */
+
+
+
+.carrosel1{
+  width: 100vw;
+  height: 300px;
+  box-shadow: 2px 2px 2px 2px rgb(233, 233, 233);
+  margin: 50px auto;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.carrosel1 ul{
+  display: flex;
+  list-style: none;
+  width: 100vw;
+  height: 350px;
+}
+
+.carrosel1 li{
+  position: relative;
+  animation: slides 25s infinite ease-out;
+}
+
+.carrosel1 img{
+  margin-left: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+#title{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 5px;
+  color: #343a40;
+  font-size: 38pt;
+}
+
+@keyframes slides{
+  0%{
+    left: 0px;
+  }
+  
+  40%{
+    left: -400px;
+  }
+  
+  80%{
+    left: -800px;
+  }
+  120%{
+    left: 0px;
+  }
+}
+
+
+
+
+/* estilo botao whatssap */
+.whatssap img{
+    width: 55px;
+    height: 55px;
+    position: fixed;
+    margin: 20px;
+    left: 1750px;
+    bottom: 100px;
+    z-index: 9999;
+}
+/* estilo botao whatssap */
+
+
