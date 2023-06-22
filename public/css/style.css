@@ -182,7 +182,8 @@ article{
   object-fit: cover;
 }
 .btn{
-  margin-top: 100px;
+  overflow: hidden;
+  margin-top: 50px;
 }
 /* Bloco de cards */
 
@@ -193,7 +194,6 @@ article{
   width: 100vw;
   height: 500px;
 }
-
 
 #texto-site{
   font-size: 38pt;
@@ -213,10 +213,7 @@ article{
 .carrosel{
   width: 100vw;
   height: 500px;
-  box-shadow: 2px 2px 2px 2px gray;
-  margin: 50px auto;
   overflow: hidden;
-  padding: 10px;
 }
 
 .carrosel ul{
@@ -251,10 +248,6 @@ article{
     left: 0px;
   }
 }
-
-/* Bloco de empresas parceiras */
-
-
 
 .carrosel1{
   width: 100vw;
@@ -311,14 +304,15 @@ article{
 }
 
 
+/* Bloco de empresas parceiras */
 
 
 /* estilo botao whatssap */
 .whatssap img{
-    width: 55px;
-    height: 55px;
-    position: fixed;
-    margin: 20px;
+  width: 55px;
+  height: 55px;
+  position: fixed;
+  margin: 20px;
     left: 1750px;
     bottom: 100px;
     z-index: 9999;

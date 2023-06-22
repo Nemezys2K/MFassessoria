@@ -16,10 +16,55 @@
     justify-content: center;
   }
   
-  
+  h1{
+    text-align: center;
+    justify-content: center;
+  }
+
+
+  /* Bloco de empresas parceiras */
+.carrosel{
+  width: 100vw;
+  height: 500px;
+  box-shadow: 2px 2px 2px 2px gray;
+  margin: 50px auto;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.carrosel ul{
+  display: flex;
+  list-style: none;
+  width: 1200px;
+  height: 550px;
+}
+
+.carrosel li{
+  position: relative;
+  animation: slides 15s infinite ease-out;
+}
+
+@keyframes slides{
+  0%{
+    left: 0px;
+  }
+  20%{
+    left: -200px;
+  }
+  40%{
+    left: -400px;
+  }
+  60%{
+    left: -600px;
+  }
+  80%{
+    left: -800px;
+  }
+  100%{
+    left: 0px;
+  }
+}
  
-  
-  
   /* estilo botao whatssap */
   .whatssap img{
       width: 55px;
