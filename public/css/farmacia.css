@@ -25,7 +25,7 @@
   /* Bloco de empresas parceiras */
 .carrosel{
   width: 100vw;
-  height: 500px;
+  height: 200px;
   box-shadow: 2px 2px 2px 2px gray;
   margin: 50px auto;
   overflow: hidden;
@@ -36,12 +36,19 @@
   display: flex;
   list-style: none;
   width: 1200px;
-  height: 550px;
+  height: 350px;
 }
 
 .carrosel li{
   position: relative;
   animation: slides 15s infinite ease-out;
+}
+
+.carrosel img{
+  height: 40%;
+  align-self: start;
+  justify-content: space-between;
+  margin-left: 200px;
 }
 
 @keyframes slides{
