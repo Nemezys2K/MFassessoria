@@ -9,7 +9,7 @@
     width: 100px;
     height: 17px;
     align-items: center;
-    justify-content: start;
+    justify-content: space-around;
     position: relative;
-    left: 900px;
+    left: 700px;
 }

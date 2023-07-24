@@ -196,14 +196,13 @@ article{
 }
 
 #texto-site{
-  font-size: 38pt;
+  font-size: 34pt;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   position: relative;
   top: 150px;
-  left: 10px;
   text-align: center;
-  
+  color: #093f2d;
 }
 /* Bloco de mensagem */
 
